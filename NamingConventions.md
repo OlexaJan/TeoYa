@@ -1,6 +1,6 @@
 ### 1.2 Asset Name Modifiers
 
-When naming an asset use these tables to determine the prefix and suffix to use with an asset's [Base Asset Name](#base-asset-name).
+When naming an asset use these tables to determine the prefix and suffix to use with an asset's Base Asset Name.
 
 #### Sections
 
@@ -32,7 +32,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 
 | Asset Type              | Prefix     | Suffix     | Notes                            |
 | ----------------------- | ---------- | ---------- | -------------------------------- |
-| Level / Map             |            |            | [Should be in a folder called Map](#2.3) |
+| Level / Map             |            |            | Should be in a folder called Map |
 | Level (Persistent)      |            | _P         |                                  |
 | Level (Audio)           |            | _Audio     |                                  |
 | Level (Lighting)        |            | _Lighting  |                                  |
@@ -131,7 +131,7 @@ When naming an asset use these tables to determine the prefix and suffix to use 
 | Cube Render Target      | RTC_       |            |                                  |
 | Texture Light Profile   | TLP        |            |                                  |
 
-<a name="anc-textures-packing"</a>
+<a name="anc-textures-packing"></a>
 <a name="1.2.6.1"></a>
 #### 1.2.6.1 Texture Packing
 It is common practice to pack multiple layers of texture data into one texture. An example of this is packing Emissive, Roughness, Ambient Occlusion together as the Red, Green, and Blue channels of a texture respectively. To determine the suffix, simply stack the given suffix letters from above together, e.g. `_ERO`.
